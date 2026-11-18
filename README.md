@@ -26,7 +26,7 @@ CSC418 lab midterm. A push of new data to `dataset/train.csv` triggers Jenkins t
 5. **Build Docker image**: builds the `runtime` stage containing the new model.
 6. **Deploy on EC2**: replaces the `midterm-api` container on port 8000 and waits until `/metrics` reports the new commit.
 7. **Push to Docker Hub**: pushes the build-number tag and `latest`.
-8. **Email**: sent after every build from `johnndoeehere@gmail.com`, with the Reg No in the subject.
+8. **Email**: sent after every build from `smtahasyed@gmail.com`, with the Reg No in the subject.
 
 ## API
 

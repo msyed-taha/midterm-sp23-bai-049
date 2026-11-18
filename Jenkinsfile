@@ -16,7 +16,7 @@ pipeline {
         IMAGE = 'msyedtaha/midterm-sp23-bai-049'
         CONTAINER = 'midterm-api'
         METRICS_URL = 'http://13.233.51.253:8000/metrics'
-        SENDER = 'johnndoeehere@gmail.com'
+        SENDER = 'smtahasyed@gmail.com'
     }
 
     stages {
