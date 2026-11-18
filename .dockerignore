@@ -1,0 +1,11 @@
+.git
+.gitignore
+.dockerignore
+**/__pycache__
+.pytest_cache
+.venv
+.DS_Store
+dataset
+tests
+Jenkinsfile
+README.md
